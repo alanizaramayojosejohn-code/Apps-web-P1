@@ -2,10 +2,12 @@
 import { ref } from 'vue'
 import Contador from './views/Contador.vue'
 import ListaTareas from './views/ListaTareas.vue'
+import Catalogo from './views/Catalogo.vue'
 
 const vistas = [
   { id: 'contador', nombre: '1. Contador', componente: Contador },
   { id: 'tareas', nombre: '2. Lista de Tareas', componente: ListaTareas },
+  { id: 'catalogo', nombre: '3. Catálogo', componente: Catalogo },
 ]
 
 const vistaActiva = ref('contador')
